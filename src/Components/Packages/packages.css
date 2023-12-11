@@ -1,0 +1,122 @@
+.Rightbar{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+
+}
+
+.rightbar-wrapper{
+    border: 1px solid dimgray;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 300px;
+    outline: none;
+    border: none;
+    text-align: left;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.searchbar{
+    padding: 10px;
+    outline: none;
+    width: 300px;
+}
+
+label{
+    font-size: 25px;
+    
+}
+
+select{
+    display: flex;
+    padding: 12px;
+    flex-direction: row;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.destination-select{
+    padding: 20px;
+}
+
+.Category{
+    padding: 20px;
+}
+
+.Sub-Category{
+    padding: 20px;
+}
+
+.Durations{
+    padding: 20px;
+}
+
+.range{
+    padding: 20px;
+}
+
+
+
+.package{
+    margin-bottom: 100px;
+    padding: 50px;
+    
+}
+
+.package-card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.package-wrapper{
+    display: flex;
+    gap: 50px;
+    border: 1px solid dimgray;
+    width: 750px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.tavel-img img{
+    width: 350px;
+    height: 220px;
+}
+
+.package-details h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.package-details p{
+    margin-bottom: 30px;
+    color: dimgray;
+}
+
+.iconss h4{
+    color: #000;
+}
+
+.iconss img{
+    margin-top: 10px;
+    border: 1px solid #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.iconss img:hover{
+    background-color: darkgoldenrod;
+}
+
+.package-details button{
+    margin-top: 14px;
+} 

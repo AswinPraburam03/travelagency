@@ -1,0 +1,116 @@
+.blogs{
+    text-align: center;
+}
+.blogs-wrapper{
+    height: 90vh;
+    margin-top: 800px;
+    background: url('../Assets/t7.png');
+    background-position: center;
+    background-size: cover; 
+}
+
+.blogs-wrapper h1{
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.blogs-wrapper p{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+video{
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 70%;
+    width: 50%;
+    border-radius: 7%;
+}
+
+
+.hotels{
+    padding-top: 120px;
+}
+
+.hotels p{
+    margin-top: 20px;
+    font-weight: 600;
+} 
+
+
+.best-rating-hotels{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+}
+
+
+.best-hotels{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.best-hotels img{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto 10px;
+}
+.best-hotels span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btnn{
+    margin-top: 10px;
+}
+
+.tripy-guide{
+    padding: 50px;
+}
+
+.tripy-guide h1{
+    padding: 30px;
+}
+
+.card{
+    margin-top: 50px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.guide-profile-card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    height: 380px;
+    
+}
+
+.guide-profile-card img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 10px;
+}
+
+.guide-profile-card {
+    line-height: 35px;
+}  
+
+
+
+
+

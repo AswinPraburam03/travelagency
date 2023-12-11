@@ -1,0 +1,109 @@
+.Trip-banner{
+display: block;
+margin: 30px auto;
+width: 90%;
+height: 500px;
+}
+
+.overlay {
+display: flex;
+flex-direction: column;
+color: #fff;
+top: 30px;
+left: 75px;
+width: 90%;
+height: 500px;
+background-color: rgba(0, 0, 0, 0.5); 
+
+}
+
+.overlay h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+    margin-right: 100px;
+}
+
+.overlay p{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+
+.shop-cate-indexsort{
+    display: flex;
+    margin: 0px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.shop-cate-indexsort p{
+    margin-left: 520px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.hrs{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: dimgray;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.Attract-World{
+    margin-top: 100px;
+    
+}
+
+.Tripcate-Attract{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.Attract-tripp{
+    margin-left: 50px;
+}
+
+.Attract-tripp img{
+    width: 800px;
+    height: 400px;
+}
+
+.Attract-trip{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+   
+}
+
+.Img-details{
+    margin-top: 50px;
+}
+
+.Img-details h2{
+    margin-bottom: 20px;
+}
+
+.Img-details span{
+    line-height: 30px;
+}
+
+.Img-details button{
+    background-color: transparent;
+    color: #000;
+}
+
+.Img-details button:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,138 @@
+.Footer{
+    margin-top: 80px;
+   
+}
+
+.footer-wrapper{
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    background: url('../Assets/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    gap: 30px;
+}
+
+.footer-wrapper h2{
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+    padding-right: 50px;
+}
+
+.footer-wrapper input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: 'robota';
+    font-size: 16px;
+    padding: 14px;
+}
+
+.footer-wrapper p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footerCard{
+    position: relative;
+    padding: 1rem 1rem 4rem;
+    gap: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    
+}
+
+.footerInfo{
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.logoDiv .logoo{
+    margin-left: 100px;
+    font-size: 40px;
+    color: #2E4374;;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logoo span{
+    color: #FFC436;
+}
+
+.footerSocials .iconss{
+    font-size: 30px;
+    color: burlywood; 
+    margin-left: 30px; 
+    cursor: pointer;  
+}
+
+.iconss:hover{
+    color: cadetblue;
+}
+
+.footerLinks{
+    margin-left: 100px;
+    display: flex;
+    flex-basis: 50%;
+    width: 100%;
+    gap: 200px;
+    margin-top: 50px;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.linkGroup .groupTitle{
+    display: block;
+    font-weight: 600;
+    color: #000;
+    font-size: 16px;
+}
+
+.footerList{
+    font-size: 14px;
+    color: dimgray;
+}
+
+.footerList:hover{
+    color: #000;
+    cursor: pointer;
+    transform: translateX(7px);
+} 
+
+.Icon{
+    font-size: 14px;
+    color: dimgray;
+}
+
+.Icon:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.footerDiv{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    text-align: center;
+    font-weight: 600;
+}

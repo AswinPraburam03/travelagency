@@ -1,0 +1,82 @@
+.topbar{
+    top: 0;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+
+}
+
+.top-logo p{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.top-logo span{
+    color: #E9B824;
+}
+
+.top-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.top-menu li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    
+    cursor: pointer;
+}
+
+.top-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #219C90;
+}
+
+.top-login{
+    display: flex;
+    align-items: center;
+    gap: 45px ;
+}
+
+.top-login button{
+    width: 100px;
+    height: 38px;
+    outline: none;
+    border: 1px solid #C70039;
+    color: #219C90;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #E9B824;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+.top-login button:active{
+    background-color: #000;
+}
+
+
+
+
+
+
+

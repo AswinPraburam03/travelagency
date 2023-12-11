@@ -1,0 +1,140 @@
+.bestFoods{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    margin-top: 150px;
+}
+
+.bestFoods h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.bestFoods hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.popular-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.topDestinations{
+    margin-top: 50px;
+}
+
+.topDestinations h2{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.topDestinations hr{
+    width: 200px;
+    height: 1px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+
+.flip{
+    margin: 50px 50px 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.flip-card{
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.flip-card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.flip-card-front{
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+.flip-card-front img{
+    max-height: 100%;
+}
+
+.flip-card-back{
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content{
+    padding: 20px;
+    text-align: center;
+}
+
+.card-content h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-content p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+button{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #00A9FF;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
